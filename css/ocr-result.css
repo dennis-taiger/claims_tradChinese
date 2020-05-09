@@ -1,0 +1,24 @@
+.fixedColumn {
+  background-color: white;
+  padding: 10px;
+}
+.flexibleColumn {
+  background-color: #039be4;
+  padding: 10px;
+}
+
+#example1 .fixedColumn {
+  width: 500px;
+  float: left;
+}
+#example1 .flexibleColumn {
+  margin-left: 0px;
+}
+
+canvas {
+  position: relative;
+  left: 50px;
+  top: 60px;
+  height: 100%;
+  width: 45%;
+}

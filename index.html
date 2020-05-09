@@ -1,0 +1,457 @@
+<!doctype html>
+<!--html lang="en"-->
+<html lang="zh-Hant">
+  <head>
+    <title>醫保賠償處理</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css'>
+    <link rel="stylesheet" href="css/dropzone.css">
+    <link rel="stylesheet" href="css/FormProgressBar.css">
+    <link rel="stylesheet" href="css/ocr-result.css">
+ 
+    <link rel="stylesheet" href="css/Canvas.css">
+    
+      
+      
+      
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">載入中...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container mycontainer">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0"><img src="images/Horizontal taiger black logo.png" alt="Taiger Logo" width="180" height="80"><span class="text-primary"></span> </a></h1>
+            
+          </div>
+
+          <div class="col-12 col-xl-8">
+              <h1 class="text-black mb-4 text-center">醫保賠償處理</h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+     
+    <!--div class="site-blocks-cover overlay" style="background-image: url(images/doctor-hero-image.jpg);" data-aos="fade" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          
+          <div class="col-md-10 mt-lg-5 text-center">
+            <div class="single-text owl-carousel">
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Decrease Claims Processing Time</h1>
+                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Automatically extracts key information from medical claims with high accuaracy</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="#upload-section" target="_blank" class="btn  btn-primary mr-2 mb-2 smoothscroll">Start Now</a>
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Validate Claims Policy</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Highlights any potential violations against claims policy terms and conditions</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="#upload-section" target="_blank" class="btn  btn-primary mr-2 mb-2 smoothscroll">Start Now</a>
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">Streamline Operational Efficiency</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Approves or rejects the claims in minutes rather than weeks</p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="#upload-section" target="_blank" class="btn  btn-primary mr-2 mb-2 smoothscroll">Start Now</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+            
+        </div>
+      </div>
+
+
+    </div-->  
+
+
+    <div class="site-section cta-big-image" id="upload-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">上傳索賠文件</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">請上傳醫療費用收據掃描件或照片</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <!--figure class="circle-bg">
+            <img src="images/img_2.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure-->
+<SECTION>
+  <DIV id="dropzone">
+    <FORM class="dropzone needsclick" id="demo-upload" action="/upload">
+      <DIV class="dz-message needsclick">
+        將文件拖放在此處或點擊此處上傳<BR>
+      </DIV>
+    </FORM>
+  </DIV>
+
+<DIV id="preview-template" style="display: none;">
+  <DIV class="dz-preview dz-file-preview">
+    <DIV class="dz-image"><IMG data-dz-thumbnail=""></DIV>
+    <DIV class="dz-details">
+      <DIV class="dz-size"><SPAN data-dz-size=""></SPAN></DIV>
+      <DIV class="dz-filename"><SPAN data-dz-name=""></SPAN></DIV>
+    </DIV>
+    <DIV class="dz-progress"><SPAN class="dz-upload" data-dz-uploadprogress=""></SPAN></DIV>
+    <DIV class="dz-error-message"><SPAN data-dz-errormessage=""></SPAN></DIV>
+    <div class="dz-success-mark">
+      <svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>Check</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <path
+            d="M23.5,31.8431458 L17.5852419,25.9283877 C16.0248253,24.3679711 13.4910294,24.366835 11.9289322,25.9289322 C10.3700136,27.4878508 10.3665912,30.0234455 11.9283877,31.5852419 L20.4147581,40.0716123 C20.5133999,40.1702541 20.6159315,40.2626649 20.7218615,40.3488435 C22.2835669,41.8725651 24.794234,41.8626202 26.3461564,40.3106978 L43.3106978,23.3461564 C44.8771021,21.7797521 44.8758057,19.2483887 43.3137085,17.6862915 C41.7547899,16.1273729 39.2176035,16.1255422 37.6538436,17.6893022 L23.5,31.8431458 Z M27,53 C41.3594035,53 53,41.3594035 53,27 C53,12.6405965 41.3594035,1 27,1 C12.6405965,1 1,12.6405965 1,27 C1,41.3594035 12.6405965,53 27,53 Z"
+            id="Oval-2" stroke-opacity="0.198794158" stroke="#747474" fill-opacity="0.816519475" fill="#FFFFFF"
+            sketch:type="MSShapeGroup"></path>
+        </g>
+      </svg>
+    </div>
+    <div class="dz-error-mark">
+      <svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>error</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="Check-+-Oval-2" sketch:type="MSLayerGroup" stroke="#747474" stroke-opacity="0.198794158" fill="#FFFFFF"
+            fill-opacity="0.816519475">
+            <path
+              d="M32.6568542,29 L38.3106978,23.3461564 C39.8771021,21.7797521 39.8758057,19.2483887 38.3137085,17.6862915 C36.7547899,16.1273729 34.2176035,16.1255422 32.6538436,17.6893022 L27,23.3431458 L21.3461564,17.6893022 C19.7823965,16.1255422 17.2452101,16.1273729 15.6862915,17.6862915 C14.1241943,19.2483887 14.1228979,21.7797521 15.6893022,23.3461564 L21.3431458,29 L15.6893022,34.6538436 C14.1228979,36.2202479 14.1241943,38.7516113 15.6862915,40.3137085 C17.2452101,41.8726271 19.7823965,41.8744578 21.3461564,40.3106978 L27,34.6568542 L32.6538436,40.3106978 C34.2176035,41.8744578 36.7547899,41.8726271 38.3137085,40.3137085 C39.8758057,38.7516113 39.8771021,36.2202479 38.3106978,34.6538436 L32.6568542,29 Z M27,53 C41.3594035,53 53,41.3594035 53,27 C53,12.6405965 41.3594035,1 27,1 C12.6405965,1 1,12.6405965 1,27 C1,41.3594035 12.6405965,53 27,53 Z"
+              id="Oval-2" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </svg>
+    </div>
+    </SECTION>
+          </div>
+          
+          <div class="col-lg-6 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+            <h3 class="text-black mb-4 text-center">文件處理進度</h3>
+
+            <!--p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p-->
+
+            <!--p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p-->
+            
+    <!-- Start Progress Bar -->
+    <div class="progress">
+      <div class="circle done">
+        <span class="label">1</span>
+        <span class="title">上傳</span>
+      </div>
+      <span class="bar done"></span>
+      <div class="circle done">
+        <span class="label">2</span>
+        <span class="title">OCR</span>
+      </div>
+      <span class="bar half"></span>
+      <div class="circle active">
+        <span class="label">3</span>
+        <span class="title">AI分類</span>
+      </div>
+      <span class="bar"></span>
+      <div class="circle">
+        <span class="label">4</span>
+        <span class="title">AI提取</span>
+      </div>
+      <span class="bar"></span>
+      <div class="circle">
+        <span class="label">5</span>
+        <span class="title">結束</span>
+      </div>
+    </div>
+    <!-- End Progress Bar -->
+
+    <div id="no-doc" class="mb-4 text-center"><p>沒有文件正在處理中</p></div>
+    <div id="after-upload" style="display:none">
+      <p class="mb-4 text-center">成功提取6項數據</p>
+      <p class="mb-4 text-center"><a href="#ocr-section" target="_blank" class="btn btn-primary mb-4 smoothscroll">查看結果</a></p>
+    </div>
+          </div>
+        </div>      
+      </div>  
+    </div>
+
+
+    <section class="site-section bg-light" id="ocr-section">
+      <div class="container">
+        <div class="row site-section" id="scan-section">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title">收據分析結果</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+
+            <div class="row form-group">
+                <div class="col-md-12 mb-2">
+                    <h3 class="text-black h4 mb-4">已提取數據點</h3>
+                </div>
+                <div class="col-md-4 mb-2">
+                  <label class="text-black" for="cname">診所名稱</label>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <input type="text" id="cname" class="form-control" value="" >
+                </div>
+                <div class="col-md-2 mb-2">
+                    <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('cname','1')">
+                </div>
+              </div>
+              
+            <div class="row form-group">
+                <div class="col-md-4 mb-2">
+                  <label class="text-black" for="pname">病人姓名</label>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <input type="text" id="pname" class="form-control" value="">
+                </div>
+                <div class="col-md-2 mb-2">
+                    <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('pname','1')">
+                </div>
+              </div>
+              
+            <div class="row form-group">
+                <div class="col-md-4 mb-2">
+                  <label class="text-black" for="inv_no">病歷號碼</label>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <input type="text" id="inv_no" class="form-control" value="">
+                </div>
+                <div class="col-md-2 mb-2">
+                    <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('inv_no','1')">
+                </div>
+              </div>
+              
+            <div class="row form-group">
+                <div class="col-md-4 mb-2">
+                  <label class="text-black" for="date">就診日期</label>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <input type="text" id="date" class="form-control" value="">
+                </div>
+                <div class="col-md-2 mb-2">
+                    <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('date','1')">
+                </div>
+              </div>
+              
+            <div class="row form-group">
+                <div class="col-md-4 mb-2">
+                  <label class="text-black" for="doctor">醫師姓名</label>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <input type="text" id="doctor" class="form-control" value="">
+                </div>
+                <div class="col-md-2 mb-2">
+                    <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('doctor','1')">
+                </div>
+              </div>
+
+            <div class="row form-group">
+                <div class="col-md-4 mb-2">
+                  <label class="text-black" for="amount">應繳金額</label>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <input type="text" id="amount" class="form-control" value="">
+                </div>
+                <div class="col-md-2 mb-2">
+                    <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('amount','1')">
+                </div>
+              </div>
+              
+            <div class="mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" id="no-show-1" style="display:none">
+              <h3 class="text-black h4 mb-4">業務規則驗證</h3>
+                
+        <div class="row form-group">
+            <div class="col-md-10 mb-2 a" id="no-show-2" style="display:none">
+                <ul class="list-unstyled ul-check success mb-2">
+                    <li>醫保收據應在治療後365天內提交</li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-2" id="no-show-3" style="display:none">
+                <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('date','1')">
+            </div>
+        </div>
+                
+        <div class="row form-group">
+            <div class="col-md-10 mb-2 a" id="no-show-4" style="display:none">
+                <ul class="list-unstyled ul-check success mb-2">
+                    <li>病人持有有效的保險單</li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-2" id="no-show-5" style="display:none">
+                <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('policy','2')">
+            </div>
+        </div>
+                
+        <div class="row form-group">
+            <div class="col-md-10 mb-2 a" id="no-show-6" style="display:none">
+                <ul class="list-unstyled ul-check success mb-2">
+                    <li>醫療保單在生效日期之內</li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-2"  id="no-show-7" style="display:none">
+                <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('subscription','2')">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-md-10 mb-2 a" id="no-show-8" style="display:none">
+                <ul class="list-unstyled ul-check success mb-2">
+                    <li class="list-unstyled ul-check success mb-2">索賠金額不應超過受保金額</li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-2"  id="no-show-9" style="display:none">
+                <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('insuredAmt','2')">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-md-10 mb-2 a" id="no-show-10" style="display:none">
+                <ul class="list-unstyled ul-check success mb-2">
+                    <li>診所在批准名單上</li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-2" id="no-show-11" style="display:none">
+                <input type="submit" value="查看" class="btn-sm btn-primary text-white" onclick="viewDataPoint('list','3')">
+            </div>
+        </div>
+
+                
+                
+                <p class="text-center" id="no-show-12" style="display:none">
+                <a href="#" class="btn btn-primary a" onclick="window.location.href='./index-thankyou-appove.html';">批准</a>
+                <a href="#" class="btn btn-secondary a" onclick="window.location.href='./index-thankyou-reject.html';">拒絕</a>
+              </p>
+            </div>
+          </div>
+            
+          <div class="col-lg-6">
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+                  <div id="detailsBox6" class="detailsBox" style="display:none">
+                        <h5>準確性: 0.80&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDPI: 200</h5>
+                  </div>
+            <!--figure class="circle-bg">
+            <img src="samples/medical_invoice.jpg" alt="Medical invoice" class="img-fluid">
+            </figure-->
+            <canvas id="theCanvas"> </canvas>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  
+  <script src="js/main.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js'></script>
+  <script src="js/dz.js"></script>
+  <script src="js/FormProgressBar.js"></script>
+  
+            
+  </body>
+  <script>
+  	(function ($) {
+
+        var tabs = $(".tabs li a");
+
+        tabs.click(function () {
+          var content = this.hash.replace('/', '');
+          tabs.removeClass("active");
+          $(this).addClass("active");
+          $("#content").find('p').hide();
+          $(content).fadeIn(200);
+        });
+
+        
+      })(jQuery);
+      
+
+      
+  </script>
+    <script src="js/Canvas.js"></script> 
+</html>
